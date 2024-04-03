@@ -12,6 +12,9 @@ cd out
 # 如果是发布到自定义域名
 echo 'anatomy.fancn21th.cn' > CNAME
 
+# 创建.nojekyll文件，防止Github Pages build错误
+touch .nojekyll
+
 git init
 git add -A
 git commit -m 'deploy'
