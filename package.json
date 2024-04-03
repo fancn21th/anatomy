@@ -10,7 +10,7 @@
     "deploy": "./deploy.sh"
   },
   "dependencies": {
-    "@fancn21th/molecules-organisms-bones": "0.0.1",
+    "@fancn21th/molecules-organisms-bones": "0.0.2",
     "@radix-ui/themes": "3.0.1",
     "next": "14.1.4",
     "react": "^18",
