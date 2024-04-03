@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@fancn21th/molecules-organisms-bones": "0.0.2",
+    "@gsap/react": "2.1.0",
     "@radix-ui/themes": "3.0.1",
+    "gsap": "3.12.5",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18"
