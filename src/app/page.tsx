@@ -13,6 +13,8 @@ const zmx = Zhi_Mang_Xing({
 });
 
 const texts = "从小处思考, 从大处设想".split("");
+const leftTexts = texts.slice(0, texts.length / 2);
+const rightTexts = texts.slice(texts.length / 2);
 
 export default function Home() {
   const container = useRef<HTMLElement | null>(null);
@@ -35,9 +37,16 @@ export default function Home() {
   return (
     <Theme accentColor="crimson" grayColor="sand" radius="large" scaling="95%">
       <main className={[zmx.className, styles.main].join(" ")} ref={container}>
-        {texts.map((text, index) => {
-          return <span key={index}>{text}</span>;
-        })}
+        <div className={styles.left}>
+          {leftTexts.map((text, index) => {
+            return <span key={index}>{text}</span>;
+          })}
+        </div>
+        <div className={styles.right}>
+          {rightTexts.map((text, index) => {
+            return <span key={index}>{text}</span>;
+          })}
+        </div>
       </main>
     </Theme>
   );
