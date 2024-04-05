@@ -47,6 +47,7 @@ export default function Home() {
             return <span key={index}>{text}</span>;
           })}
         </div>
+        <div className={styles.stage}></div>
       </main>
     </Theme>
   );
