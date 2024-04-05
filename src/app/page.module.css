@@ -16,10 +16,12 @@
 .left {
   color: black;
   justify-content: right;
+  padding-right: 0.5rem;
 }
 
 .right {
   color: white;
+  padding-left: 0.5rem;
 }
 
 .stage {

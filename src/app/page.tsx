@@ -12,7 +12,7 @@ const zmx = Zhi_Mang_Xing({
   weight: "400",
 });
 
-const texts = "从小处思考, 从大处设想".split("");
+const texts = "从小处思考从大处设想".split("");
 const leftTexts = texts.slice(0, texts.length / 2);
 const rightTexts = texts.slice(texts.length / 2);
 
